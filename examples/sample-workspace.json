@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "master": {
+    "id": "863fcc78-93cb-4669-8465-6759238b879c",
+    "name": "Master profile",
+    "personal": {
+      "name": "Alex Morgan",
+      "headline": "Product Designer",
+      "email": "alex@example.com",
+      "phone": "+1 (555) 014-0286",
+      "location": "Portland, OR",
+      "linkedin": "https://linkedin.com/in/example",
+      "github": "",
+      "website": "https://example.com",
+      "links": ""
+    },
+    "summary": "Product designer with 6+ years of experience turning complex problems into thoughtful, accessible digital experiences. I bring together research, systems thinking, and a love of craft to build products that work beautifully for people.",
+    "sections": {
+      "experience": [
+        {
+          "id": "59407af6-619a-407b-a4ee-78aed4148531",
+          "title": "Senior Product Designer",
+          "company": "Northstar Digital",
+          "location": "Portland, OR",
+          "type": "Full-time",
+          "start": "2022-03",
+          "end": "",
+          "current": true,
+          "bullets": "Led end-to-end design for a B2B platform serving 12,000+ teams, improving activation by 28%.\nBuilt a design system with 60+ components, reducing design-to-development time by 35%.\nPartnered with product and engineering to translate user research into a focused product roadmap."
+        },
+        {
+          "id": "e28d033c-0d52-4e8c-805d-775671d4192c",
+          "title": "Product Designer",
+          "company": "Studio Forma",
+          "location": "Seattle, WA",
+          "type": "Full-time",
+          "start": "2019-06",
+          "end": "2022-02",
+          "current": false,
+          "bullets": "Designed web and mobile experiences for clients in education, wellness, and financial services.\nConducted 40+ user interviews and usability studies to inform evidence-based design decisions."
+        }
+      ],
+      "education": [
+        {
+          "id": "c285ac34-09ff-4ab7-bc92-36c03998e62c",
+          "institution": "Pacific College of Design",
+          "qualification": "Bachelor of Fine Arts",
+          "field": "Interaction Design",
+          "start": "2015-09",
+          "end": "2019-05",
+          "gpa": "",
+          "bullets": "Graduated with honours · Design Society member"
+        }
+      ],
+      "skills": [
+        {
+          "id": "d8e68872-ed8c-464b-a40c-f4bbfa492332",
+          "name": "Design",
+          "items": "Product strategy, User research, Interaction design, Prototyping, Accessibility"
+        },
+        {
+          "id": "679ed374-97dc-4a24-8388-910cd48be62c",
+          "name": "Tools",
+          "items": "Figma, FigJam, Adobe Creative Suite, HTML & CSS"
+        }
+      ],
+      "projects": [
+        {
+          "id": "fbdf888f-a00a-44bf-be30-504dbc26c059",
+          "name": "Open Path",
+          "description": "An accessible trip-planning concept that helps people explore their city with confidence.",
+          "technologies": "Figma, User testing",
+          "url": "",
+          "github": "",
+          "bullets": ""
+        }
+      ],
+      "certifications": [],
+      "publications": [],
+      "research": [],
+      "volunteer": [],
+      "leadership": [],
+      "awards": [],
+      "languages": [],
+      "memberships": [],
+      "references": [],
+      "custom": []
+    },
+    "order": [
+      "summary",
+      "experience",
+      "education",
+      "skills",
+      "projects",
+      "certifications",
+      "publications",
+      "research",
+      "volunteer",
+      "leadership",
+      "awards",
+      "languages",
+      "memberships",
+      "references",
+      "custom"
+    ],
+    "hidden": [],
+    "titles": {},
+    "excluded": [],
+    "design": {
+      "template": "classic",
+      "font": "Arial",
+      "fontSize": 10.5,
+      "accent": "#31594e",
+      "lineHeight": 1.45,
+      "sectionSpacing": 16,
+      "margin": 18,
+      "heading": "uppercase",
+      "dateFormat": "short",
+      "paper": "a4"
+    }
+  },
+  "versions": [
+    {
+      "id": "3eb402c6-7615-41a1-88a0-17f3c2234ded",
+      "name": "Product Designer Resume",
+      "personal": {
+        "name": "Alex Morgan",
+        "headline": "Product Designer",
+        "email": "alex@example.com",
+        "phone": "+1 (555) 014-0286",
+        "location": "Portland, OR",
+        "linkedin": "https://linkedin.com/in/example",
+        "github": "",
+        "website": "https://example.com",
+        "links": ""
+      },
+      "summary": "Product designer with 6+ years of experience turning complex problems into thoughtful, accessible digital experiences. I bring together research, systems thinking, and a love of craft to build products that work beautifully for people.",
+      "sections": {
+        "experience": [
+          {
+            "id": "59407af6-619a-407b-a4ee-78aed4148531",
+            "title": "Senior Product Designer",
+            "company": "Northstar Digital",
+            "location": "Portland, OR",
+            "type": "Full-time",
+            "start": "2022-03",
+            "end": "",
+            "current": true,
+            "bullets": "Led end-to-end design for a B2B platform serving 12,000+ teams, improving activation by 28%.\nBuilt a design system with 60+ components, reducing design-to-development time by 35%.\nPartnered with product and engineering to translate user research into a focused product roadmap."
+          },
+          {
+            "id": "e28d033c-0d52-4e8c-805d-775671d4192c",
+            "title": "Product Designer",
+            "company": "Studio Forma",
+            "location": "Seattle, WA",
+            "type": "Full-time",
+            "start": "2019-06",
+            "end": "2022-02",
+            "current": false,
+            "bullets": "Designed web and mobile experiences for clients in education, wellness, and financial services.\nConducted 40+ user interviews and usability studies to inform evidence-based design decisions."
+          }
+        ],
+        "education": [
+          {
+            "id": "c285ac34-09ff-4ab7-bc92-36c03998e62c",
+            "institution": "Pacific College of Design",
+            "qualification": "Bachelor of Fine Arts",
+            "field": "Interaction Design",
+            "start": "2015-09",
+            "end": "2019-05",
+            "gpa": "",
+            "bullets": "Graduated with honours · Design Society member"
+          }
+        ],
+        "skills": [
+          {
+            "id": "d8e68872-ed8c-464b-a40c-f4bbfa492332",
+            "name": "Design",
+            "items": "Product strategy, User research, Interaction design, Prototyping, Accessibility"
+          },
+          {
+            "id": "679ed374-97dc-4a24-8388-910cd48be62c",
+            "name": "Tools",
+            "items": "Figma, FigJam, Adobe Creative Suite, HTML & CSS"
+          }
+        ],
+        "projects": [
+          {
+            "id": "fbdf888f-a00a-44bf-be30-504dbc26c059",
+            "name": "Open Path",
+            "description": "An accessible trip-planning concept that helps people explore their city with confidence.",
+            "technologies": "Figma, User testing",
+            "url": "",
+            "github": "",
+            "bullets": ""
+          }
+        ],
+        "certifications": [],
+        "publications": [],
+        "research": [],
+        "volunteer": [],
+        "leadership": [],
+        "awards": [],
+        "languages": [],
+        "memberships": [],
+        "references": [],
+        "custom": []
+      },
+      "order": [
+        "summary",
+        "experience",
+        "education",
+        "skills",
+        "projects",
+        "certifications",
+        "publications",
+        "research",
+        "volunteer",
+        "leadership",
+        "awards",
+        "languages",
+        "memberships",
+        "references",
+        "custom"
+      ],
+      "hidden": [],
+      "titles": {},
+      "excluded": [],
+      "design": {
+        "template": "classic",
+        "font": "Arial",
+        "fontSize": 10.5,
+        "accent": "#31594e",
+        "lineHeight": 1.45,
+        "sectionSpacing": 16,
+        "margin": 18,
+        "heading": "uppercase",
+        "dateFormat": "short",
+        "paper": "a4"
+      }
+    }
+  ],
+  "activeId": "3eb402c6-7615-41a1-88a0-17f3c2234ded",
+  "theme": "light"
+}

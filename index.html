@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#31594e">
+  <meta name="description" content="A free, private resume workspace. Build, tailor, and print professional resumes directly in your browser.">
+  <title>Resume Studio — Your next chapter</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script type="module" src="assets/js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#editor">Skip to editor</a>
+  <header class="app-header">
+    <a class="brand" href="./" aria-label="Resume Studio home"><span class="brand-mark">r<span>.</span></span><span>resume<span class="brand-light"> studio</span></span></a>
+    <div class="header-note">A little clarity. A new chapter.</div>
+    <div class="header-actions"><span id="save-status" role="status">Saved on this device</span><button id="theme-toggle" class="icon-button" aria-label="Toggle dark theme" title="Toggle dark theme">◐</button><button id="export-pdf" class="primary">Export PDF <span aria-hidden="true">↗</span></button></div>
+  </header>
+  <main class="workspace">
+    <aside class="rail" aria-label="Workspace navigation">
+      <div><div class="rail-label">WORKSPACE</div><button class="rail-item active" data-tab="content"><span aria-hidden="true">▤</span> Content</button><button class="rail-item" data-tab="templates"><span aria-hidden="true">▦</span> Templates</button><button class="rail-item" data-tab="design"><span aria-hidden="true">◈</span> Design</button><button class="rail-item" data-tab="versions"><span aria-hidden="true">▱</span> My resumes</button></div>
+      <div class="rail-bottom"><div class="privacy-dot">● <strong>Yours, and yours only.</strong></div><p>Your information stays in this browser. No accounts. No uploads.</p><button id="backup" class="text-button">↓ Back up workspace</button><button id="import-button" class="text-button">↑ Import backup</button><input id="import-file" type="file" accept=".json,application/json" hidden><p class="storage-note">Clearing browser data removes saved resumes. Keep a JSON backup.</p><span class="made-for">MADE FOR YOUR NEXT CHAPTER</span></div>
+    </aside>
+    <section class="editor-panel" id="editor" aria-label="Resume editor">
+      <div class="editor-heading"><div><div class="eyebrow">MAKE IT YOURS</div><h1 id="panel-title">Your story, on paper.</h1></div><div class="history-actions"><button id="undo" class="icon-button" aria-label="Undo" title="Undo (Ctrl+Z)">↶</button><button id="redo" class="icon-button" aria-label="Redo" title="Redo (Ctrl+Shift+Z)">↷</button></div></div>
+      <div class="version-bar"><label for="active-version">Editing</label><select id="active-version"></select><span class="local-badge">LOCAL</span></div>
+      <div id="editor-content"></div>
+    </section>
+    <section class="preview-panel" aria-label="Live resume preview">
+      <div class="preview-toolbar"><div><span class="live-dot"></span><strong>Live preview</strong><span id="paper-label">A4 · Print ready</span></div><div class="preview-tools"><button id="zoom-out" class="icon-button" aria-label="Zoom out">−</button><output id="zoom-value">75%</output><button id="zoom-in" class="icon-button" aria-label="Zoom in">+</button><button id="fit-page" class="text-button">Fit</button></div></div>
+      <div class="preview-scroll" id="preview-scroll"><div id="pages"></div></div>
+      <div class="preview-footer"><span id="page-count">1 page</span><div><button id="previous-page" class="icon-button" aria-label="Previous page">‹</button><span id="page-position">1 / 1</span><button id="next-page" class="icon-button" aria-label="Next page">›</button></div><button id="print-preview" class="text-button">Print preview ↗</button></div>
+    </section>
+  </main>
+  <nav class="mobile-switch" aria-label="Mobile workspace"><button id="show-editor" class="active" aria-pressed="true">Edit resume</button><button id="show-preview" aria-pressed="false">Preview</button></nav>
+  <div id="toast" role="status" hidden></div>
+  <dialog id="confirm-dialog"><form method="dialog"><h2 id="confirm-title">Confirm action</h2><p id="confirm-message"></p><div class="dialog-actions"><button value="cancel">Cancel</button><button value="confirm" class="primary">Confirm</button></div></form></dialog>
+  <div id="measure" aria-hidden="true"></div>
+</body>
+</html>
